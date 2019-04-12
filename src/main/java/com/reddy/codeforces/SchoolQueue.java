@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * http://codeforces.com/problemset/problem/266/B
+ */
 public class SchoolQueue {
 
 

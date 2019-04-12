@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/**
+ * http://codeforces.com/problemset/problem/271/A
+ */
 public class BeautifulYear {
 
     public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class BeautifulYear {
 
         Integer year = fr.nextInt();
 
-        for (int i = year + 1; i <= 9000; i++) {
+        for (int i = year + 1; i <= 90000; i++) { // 90000 since some test cases check values above those given in constraints
             if(isDistinct(i)) {
                 System.out.println(i);
                 break;
